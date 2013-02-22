@@ -42,7 +42,8 @@ def convert_ms(n):
     else:
         remaining_ms = remaining_s
     
-    print(str(hours) + ':' + str(minutes) + ':' + str(seconds))
+    print('Time (h/m/s): ' + str(hours) + ':' + str(minutes) + ':' +
+          str(seconds))
 
 #prompt user to input value for number of milliseconds
 milliseconds = int(input('Enter number of milliseconds: '))
