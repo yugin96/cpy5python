@@ -15,8 +15,8 @@ def gcd(m, n):
             if n % i == 0:
                 divisor = i
         i = i + 1
-    print(divisor)
+    return(divisor)
 
-gcd(24, 16)
-gcd(255, 25)
+print('Greatest common divisor of 24 and 16 = ' + str(gcd(24, 16)))
+print('Greatest common divisor of 255 and 25 = ' + str(gcd(255, 25)))
 
